@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create Employee Form</title>
+    <link
+      rel="stylesheet"
+      href="./bootstrap-4.6.0-dist_4/bootstrap-4.6.0-dist/css/bootstrap.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <section class="card my-4 bg-dark text-white">
+        <article class="card-body">
+          <h3
+            class="display-6 font-weight-bold text-uppercase text-success border-bottom pb-2 mb-2"
+          >
+            Create Employee
+          </h3>
+          <form action="#">
+            <div class="row">
+              <div class="col-md-3">
+                <label for="name">Employee name</label>
+                <input type="text" id="name" class="form-control" required />
+              </div>
+              <div class="col-md-3">
+                <label for="emp_email">Employee email</label>
+                <input
+                  type="email"
+                  id="emp_email"
+                  class="form-control"
+                  required
+                />
+              </div>
+              <div class="col-md-3">
+                <label for="emp_designation">Employee Designation</label>
+                <input
+                  type="text"
+                  id="emp_desgination"
+                  class="form-control"
+                  required
+                />
+              </div>
+              <div class="col-md-3">
+                <label for="emp_location">Employee Location</label>
+                <input
+                  type="text"
+                  id="emp_location"
+                  class="form-control"
+                  required
+                />
+              </div>
+              <div class="col-md-12">
+                <label for="emp_address">Employee address</label>
+                <textarea
+                  id="emp_address"
+                  cols="10"
+                  rows="5"
+                  class="form-control"
+                ></textarea>
+              </div>
+              <div class="col-md-3">
+                <button class="btn btn-success my-2">Create Employee</button>
+              </div>
+            </div>
+          </form>
+        </article>
+      </section>
+    </div>
+    <script src="./jquery-3.6.0.min.js"></script>
+    <script src="./bootstrap-4.6.0-dist_4/bootstrap-4.6.0-dist/js/bootstrap.js"></script>
+  </body>
+</html>
